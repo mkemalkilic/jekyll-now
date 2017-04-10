@@ -1,11 +1,12 @@
-# Jekyll-Now specific
 name: Terra Incognita
 avatar: /images/logo.png
-description: M. Kemal Kılıç
+description: Bir otodidaktiğin çalışmaları
 url: http://mkemal.org
 
-# Includes an icon in the footer for each username you enter
-footer-links:
+owner:
+  name: M. Kemal Kılıç
+  avatar: /images/avatar.jpg
+  bio: "Makina mühendisi."
   email: mkemalkilic@gmail.com
   linkedin: mkemal
   instagram: mkemalkilic
@@ -13,10 +14,7 @@ footer-links:
   twitter: mkemal
   flickr: photos/23221002@N00/
   github: mkemalkilic
-  pinterest:
-  rss: # just type anything here for a working RSS icon
 
-twitter: mkemal
 
 disqus: mkemal-org
 google_analytics:
