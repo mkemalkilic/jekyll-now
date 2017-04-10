@@ -4,7 +4,9 @@
 //
 
 // Colors
-$blue: #4183C4;
+$blue: #1B81CF;
+$green: #37B038;
+$yellow: #F8AB00;
 
 // Grays
 $black: #000;
@@ -18,6 +20,14 @@ $white: #fff;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+
+// Responsive Navigation
+$content-width: 100%;
+$breakpoint: 640px;
+$nav-height: 70px;
+$nav-background: $white;
+$nav-font-color: $darkerGray;
+$link-hover-color: $white;
 
 // Mobile breakpoints
 @mixin mobile {
