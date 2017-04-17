@@ -9,6 +9,25 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+@mixin clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    /* Fixes Opera/contenteditable bug: */
+    /* http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952 */
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+@mixin prefix($grid:$def_grid,$cols:''){
+  margin-left:(100%/$grid * $cols);
+}
+
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -152,7 +171,6 @@ img {
 
 .wrapper-masthead {
   margin: 0 auto;
-  margin-bottom: 50px;
   width: 100%;
 }
 
@@ -217,6 +235,51 @@ img {
 //
 // .main
 //
+/* Large feature header image */
+.image-wrap {
+  position: relative;
+  @include clearfix;
+  &:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 8%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: $white;
+    @media #{$small} {
+      left: 25%;
+    }
+    @media #{$large} {
+      border-width: 20px;
+    }
+    @media #{$x-large} {
+    }
+  }
+  img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #dedede;
+    -ms-interpolation-mode: bicubic;
+  }
+  .headline-wrap {
+    position: absolute;
+    bottom: 25px;
+    @include prefix(12,1);
+    @media #{$small} {
+      left: 25%;
+      margin-left: 0;
+    }
+    @media #{$x-large} {
+    }
+    h1, h2 {
+      color: $white;
+    }
+  }
+}
+
 
 .posts > .post {
   padding-bottom: 2em;

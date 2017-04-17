@@ -25,7 +25,7 @@ $georgia: Georgia, serif;
 $content-width: 100%;
 $breakpoint: 640px;
 $nav-height: 70px;
-$nav-background: $white;
+$nav-background: 0;
 $nav-font-color: $darkerGray;
 $link-hover-color: $white;
 
@@ -35,3 +35,9 @@ $link-hover-color: $white;
     @content;
   }
 }
+
+$micro            : "only screen and (min-width: 1em)";
+$small            : "only screen and (min-width: 37.5em)";
+$medium           : "only screen and (min-width: 48em)";
+$large            : "only screen and (min-width: 62em)";
+$x-large          : "only screen and (min-width: 86.375em)";
