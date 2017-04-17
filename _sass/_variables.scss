@@ -17,9 +17,10 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$headlines: 'Cabin Condensed', sans-serif;
+$sans: 'Open Sans', sans-serif;
+$serif: 'Habibi', serif;
+$monospace: 'Droid Sans Mono', monospace;
 
 // Responsive Navigation
 $content-width: 100%;
@@ -27,7 +28,7 @@ $breakpoint: 640px;
 $nav-height: 70px;
 $nav-background: 0;
 $nav-font-color: $darkerGray;
-$link-hover-color: $white;
+$link-hover-color: 0;
 
 // Mobile breakpoints
 @mixin mobile {

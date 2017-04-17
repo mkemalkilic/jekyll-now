@@ -9,7 +9,7 @@ comments: true
 
 2010 yılından itibaren ise Windows7 ile beraber [Arch Linux](https://www.archlinux.org/) kullanıyorum ve yılda bir iki kere Windows’u formatlıyorum. Windows’u formatlayınca da bildiğiniz üzere Windows’un kendi önyükleyicisi GRUB’u yok sayıyor. Bu nedenle format sonrası GNU/Linux’a boot edemiyorsunuz sistemi. Eğer Windows üstüne GNU/Linux dağıtımını kurduysanız zaten sorun yok.
 
-Bir çok yerde, Arch Linux için de, sorunun çözümü açıklanmış ama burada derli toplu dursun istiyorum. Bu arada aşağıdaki komutlar MBR (Master Boot Record) spesifik komutlar.
+Bir çok yerde, Arch Linux için de, sorunun çözümü açıklanmış ama burada derli toplu dursun istiyorum. Bu arada aşağıdaki komutlar **MBR** (Master Boot Record) spesifik komutlar.
 
 - Öncelikle güncel Arch Linux live .iso’sunu indirip USB belleğe aktarıyoruz. (Bunların nasıl yapılacağını anlatmama gerek yok sanırım, Arch Linux kullanıyorsanız zaten az çok biliyorsunuzdur)
 - Sistemi hazırladığımız live iso’dan boot ediyoruz.
