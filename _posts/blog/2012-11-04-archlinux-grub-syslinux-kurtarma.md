@@ -3,6 +3,7 @@ layout: post
 title: "ArchLinux GRUB, Syslinux Kurtarma"
 date: 2017-04-04 
 comments: true
+published: true
 ---
 
 2006 yılından beri GNU/Linux’u kişisel bilgisayarımda ana işletim sistemi olarak kullanıyorum. Şimdiye kadar Windows’u Catia, Ansys, Solidworks gibi GNU/Linux sürümü bulunmayan programlar için kullandım genelde. Neden GNU/Linux sorusunun cevabı ayrı bir yazının konusu olsun. Şimdilik, yılda bir kaç defa karşılaştığım bir sorunla ilgili hem bana not olarak burada bulunsun hem de aynı sorunla karşılaşan insanlara faydası olsun diye yazıyorum.

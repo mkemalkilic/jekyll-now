@@ -2,6 +2,7 @@
 layout: post
 title: "İdealist Olmak"
 comments: true
+published: true
 ---
 
 Okuma yazma öğrendiğim günden beri, düzenli günlük tutan biri olmama rağmen buraya yazmakta zorlanıyor bu bünye. Bilmiyorum belki düşüncelerimi, okumak isteyen herkesle paylaşmak korkutuyor beni ya da yazdıklarımın beni takip edebilecek muhtemel kişilerce beğenilmeyecek olması... Bu kişilerin fiziki çevrem içerisinde yer alan insanlar olması da değil mesele; zira onlardan bir ya da ikisi okur burayı, gerisinin haberi bile yoktur zaten.
