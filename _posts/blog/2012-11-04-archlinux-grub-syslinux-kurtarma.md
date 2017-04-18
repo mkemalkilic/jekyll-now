@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "ArchLinux GRUB, Syslinux Kurtarma"
-date: 2017-04-04 
 comments: true
 published: true
 ---
