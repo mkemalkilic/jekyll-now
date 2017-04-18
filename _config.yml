@@ -1,9 +1,11 @@
 name: Terra Incognita
-avatar: /images/logo.png
+logo: /images/logo.png
 description: Bir otodidaktiğin çalışmaları
 url: http://mkemal.org
 
 author: mkemal
+avatar: /images/avatar.jpg
+
 owner:
   name: M. Kemal Kılıç
   avatar: /images/avatar.jpg
@@ -18,10 +20,10 @@ owner:
 
 
 disqus: mkemal-org
-google_analytics:
+google_analytics: UA-97642314-1
 webmaster_verifications:
-  google:
-  bing:
+  google: hdMMq_bzlUdzlI1_7UmjoGEPn75lxkr76h4lRck9-s8
+  bing: 
   yandex:
 
 #
