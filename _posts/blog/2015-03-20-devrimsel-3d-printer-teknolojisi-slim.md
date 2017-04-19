@@ -25,7 +25,7 @@ Yukarıda da gördüğünüz üzere bir kap içerisinde sıvı halde, UV ışı�
 
 <img style="float: right;" src="{{ site.baseurl }}/images/posts/slim_2.png">
 
-Kabın altındaki bu ölü bölgeye kadar daldırılan platform üzerine alttan yansıtılan ultraviyole ışık sayesinde ilk katman oluşuyor. Platform yavaş yavaş yukarı kaldırılırken alttan gönderilen ışık, [şu videodaki](https://youtu.be/rtBd1y0_Pvo) **MR** görüntüsü gibi **kesit kesit** ama sürekli bir biçimde platform üzerine yansıtılarak sıvı resin katılaştırılıyor ve böylece istenilen tasarım **ne kadar karışık olursa olsun** üretilebiliyor. Tabii ki tüm bu süreç geliştirilen yazılım tarafından kontrol ediliyor.
+Kabın altındaki bu ölü bölgeye kadar daldırılan platform üzerine alttan yansıtılan ultraviyole ışık sayesinde ilk katman oluşuyor. Platform yavaş yavaş yukarı kaldırılırken alttan gönderilen ışık, [şu videodaki](https://youtu.be/rtBd1y0_Pvo) **MRI** görüntüsü gibi **kesit kesit** ama sürekli bir biçimde platform üzerine yansıtılarak sıvı resin katılaştırılıyor ve böylece istenilen tasarım **ne kadar karışık olursa olsun** üretilebiliyor. Tabii ki tüm bu süreç geliştirilen yazılım tarafından kontrol ediliyor.
 
 <img style="float: left;" src="{{ site.baseurl }}/images/posts/slim_3.png">
 
