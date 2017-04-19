@@ -318,6 +318,10 @@ img {
   }
 }
 
+.social_icons a {
+  color: $darkGray;
+}
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
@@ -335,4 +339,3 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "navigation";
 @import "highlights";
-@import "social-icons";

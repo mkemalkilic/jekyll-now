@@ -9,7 +9,7 @@ permalink: /about/
 
 #### <center>Sosyal Medya</center>
 
-<center>
+<center><span class="social_icons">
 {% if site.owner.email %}<a href="mailto:{{ site.owner.email }}"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>{% endif %}
 {% if site.owner.linkedin %}<a href="https://www.linkedin.com/in/{{ site.owner.linkedin }}"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>{% endif %}
 {% if site.owner.instagram %}<a href="https://instagram.com/{{ site.owner.instagram }}"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>{% endif %}
@@ -18,4 +18,4 @@ permalink: /about/
 {% if site.owner.flickr %}<a href="https://www.flickr.com/{{ site.owner.flickr }}"><i class="fa fa-flickr fa-3x" aria-hidden="true"></i></a>{% endif %}
 {% if site.owner.github %}<a href="https://github.com/{{ site.owner.github }}"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>{% endif %}
 {% if site.owner.rss %}<a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss-square fa-3x" aria-hidden="true"></i></a>{% endif %}
-</center>
+</span></center>
